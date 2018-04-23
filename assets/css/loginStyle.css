@@ -1,0 +1,164 @@
+html,body{
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+
+}
+
+
+.wrapper{
+  position: relative;
+  padding: 0PX;
+  margin: 0PX;
+  background-image: url('../img/bb1.jpg');
+  background-position:left;
+  height: 100vh;
+  width: 100%;
+overflow: hidden;
+}
+.title-1{
+  position: relative;
+  margin-top: 20vh;
+  left:5%;
+  color: white;
+}
+
+.title-1 h1{
+  font-family: 'Anton', sans-serif;
+}
+.title-1 h3{
+  font-weight: bold;
+font-family: 'Roboto', sans-serif;
+}
+
+.formlogin{
+  position: relative;
+  left:5%;
+  margin-top:5vh;
+}
+.formlogin input{
+  width: 25%;
+  height:9vh;
+  border-radius: 10px;
+  background: none;
+  border:3px solid white;
+  margin: 10px auto;
+  padding: 10px;
+  outline: none;
+    color: white;
+}
+
+.formlogin input::placeholder{
+  position:relative;
+  padding:10px 10px 0px 10px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.formlogin button{
+  margin: 20px auto;
+  width: 25%;
+  height:7vh;
+  background: black;
+  border-radius:5px;
+  color: white;
+  border:2px solid black;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.formlogin p{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.formlogin a{
+  color:black;
+  text-decoration: underline;
+}
+.tampilan-1{
+  display: block;
+}
+
+
+.tampilan-2{
+
+  display: none;
+}
+
+.title-2{
+  position: relative;
+  margin-top: 10vh;
+  left:5%;
+  color: white;
+}
+
+.title-2 h1{
+  font-family: 'Anton', sans-serif;
+}
+.title-2 h3{
+  font-weight: bold;
+font-family: 'Roboto', sans-serif;
+}
+
+.formDaftar{
+  position: relative;
+  margin-top:5vh;
+  left:7%;
+  color:white;
+}
+
+.formDaftar input{
+  background: none;
+  border-radius:7px;
+  width:18%;
+  height:7vh;
+  border: 3px solid whitesmoke;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  transition:all 0.2s ease-in-out;
+  padding:40px 10px 20px 10px;
+}
+
+.formDaftar input:focus{
+  padding:40px 10px 20px 10px;
+  height: 12vh;
+}
+
+.formDaftar label{
+  position: absolute;
+  display: block;
+  padding: 10px;
+}
+
+.formDaftar button{
+  width:18%;
+  height: 5vh;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.login-menu{
+  position: absolute;
+  background: black;
+  color: white;
+  right:7%;
+  top:8vh;
+border-radius:5px;
+}
+.login-menu a{
+  font-size: 20px;
+  padding: 15px 20px 15px 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
