@@ -10,8 +10,6 @@ APLIKASI SISTEM PAKAR MENGGUNAKAN METODE BACKWARD CHAINING UNTUK MENDIAGNOSA PEN
 --------------------------------------------------------------------------------------------
 
 instalasi 
--Composer
-
 ketik di terminal dengan composer install didalam directory 
-
-install database 
+install database
+pada bagian aplikasi/config/ ganti base url dengan url yang sama dengan nama folder
